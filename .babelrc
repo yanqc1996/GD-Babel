@@ -1,0 +1,12 @@
+{
+  "plugins": [
+    [
+      "./plugin",
+      {
+        "bad": "good",
+        "dead": "alive"
+      }
+    ],
+    ["./node-env-replace.js"]
+  ]
+}
